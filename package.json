@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server",
-    "dist": "node_modules/.bin/webpack -p"
+    "dist": "WEBPACK_ENV=online node_modules/.bin/webpack -p"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
