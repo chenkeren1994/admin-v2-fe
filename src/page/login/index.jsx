@@ -68,7 +68,7 @@ export default class Login extends React.Component {
                                     <input type="text"
                                            name="username"
                                            className="form-control"
-                                           placeholder="请输入用户名"
+                                           placeholder="admin"
                                            onKeyUp={e => this.onInputKeyUp(e)}
                                            onChange={e => this.onInputChange(e)}
                                     />
@@ -77,7 +77,7 @@ export default class Login extends React.Component {
                                     <input type="password"
                                            name="password"
                                            className="form-control"
-                                           placeholder="请输入密码"
+                                           placeholder="admin"
                                            onKeyUp={e => this.onInputKeyUp(e)}
                                            onChange={e => this.onInputChange(e)}
                                     />
